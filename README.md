@@ -1,4 +1,4 @@
-# A Penny for My Thought? A Penny for Mine.
+# <a href="https://sanikagumaste10.wixsite.com/apennyformythought" target="_blank">A Penny for My Thought? A Penny for Mine.</a>
 
 > *I spend a lot of my time teaching machines to find patterns in data.
 > I also spend a lot of my time trying to find patterns in myself.*
