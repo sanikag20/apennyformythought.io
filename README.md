@@ -1,89 +1,106 @@
-# Writing Archive
+# Data
 
-This directory documents the writing published through **A Penny for My Thought? A Penny for Mine.**
+## The Writing Archive as Data
 
-The live versions of the essays are hosted on the publication website.
+At first glance, a personal writing archive does not look like a dataset.
 
-This repository does not duplicate the complete literary archive. Instead, it provides an index and a possible foundation for future computational analysis.
+There are no rows and columns.
 
----
+There are no obvious labels.
 
-## Why Keep a Writing Index?
+There is no obvious target variable.
 
-A collection of writing becomes interesting when viewed over time.
+But text is data.
 
-Individual essays capture individual moments.
-
-Together, they form a larger record of:
-
-* ideas
-* questions
-* interests
-* moods
-* references
-* changing perspectives
-
-The index provides a structured view of that archive without reducing the writing itself to metadata.
-
----
-
-## Published Writing
-
-The current archive includes pieces such as:
-
-| Title                          | Type             |
-| ------------------------------ | ---------------- |
-| *Went back to my Ibiza.*       | Personal essay   |
-| *Not Like Other Girls.*        | Personal essay   |
-| *World's Smallest Violin*      | Reflection       |
-| *Caught in a landslide*        | Reflection       |
-| *Like Logs in a River*         | Personal essay   |
-| *It's Wednesday My Dudes*      | Personal writing |
-| *Yours Truly, Debby Downer.*   | Reflection       |
-| *Almost there ft. Inner Peace* | Reflection       |
-| *Lost.*                        | Personal writing |
-
-For the most current versions, visit the live publication.
-
----
-
-## Future Metadata
-
-A future version of this archive could associate each essay with structured information such as:
+Every essay contains structure that can potentially be represented computationally:
 
 ```text
+Document
+│
+├── Text
+├── Date
+├── Title
+├── Length
+├── Vocabulary
+├── Topics
+├── References
+├── Themes
+└── Semantic Representation
+```
+
+The purpose of this directory is to document that possibility.
+
+---
+
+## Current State
+
+The repository does not currently contain a processed dataset of the complete writing archive.
+
+This is intentional.
+
+The live publication remains the source of truth for the writing.
+
+Future derived datasets may be created for analytical or experimental purposes.
+
+---
+
+## Potential Representations
+
+A future structured representation might look conceptually like:
+
+```text
+essay_id
 title
-publication_date
+date
+text
+word_count
 topics
 themes
-length
-references
-sentiment
 embedding
 ```
 
-The purpose would not be to score or judge the writing.
-
-Instead, metadata could make previously invisible relationships discoverable.
+These fields would provide a bridge between literary content and computational analysis.
 
 ---
 
-## Future Direction
+## Potential Analyses
 
-The writing archive could eventually become the input to a small NLP project.
+Once represented as structured text, the archive could support experiments involving:
 
-Potential capabilities include:
+### Semantic Search
 
-* semantic search
-* topic clustering
-* essay similarity
-* theme evolution over time
-* recurring phrase analysis
-* writing-style analysis
-* visualization of relationships between essays
+Find writing based on meaning rather than exact keywords.
 
-The literary archive would become the dataset.
+### Topic Modeling
 
-The author would become the analyst.
+Identify recurring subjects across the archive.
 
-And the questions would remain human.
+### Embeddings
+
+Represent essays as vectors in a semantic space.
+
+### Clustering
+
+Group pieces that are conceptually similar.
+
+### Temporal Analysis
+
+Study how recurring themes change over time.
+
+### Visualization
+
+Create a visual map of relationships between pieces of writing.
+
+---
+
+## Important Principle
+
+Computational representation should be treated as a secondary layer.
+
+The dataset is derived from the writing.
+
+The writing is not created merely to produce the dataset.
+
+That distinction matters.
+
+The goal is to use technology to discover interesting patterns without reducing subjective experiences to numbers.
