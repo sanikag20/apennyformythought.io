@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local writing archive and generated datasets
+data/raw/
+data/processed/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Keep personal essay metadata private
+data/essays.csv
+
+# Keep generated charts private until reviewed
+reports/figures/
