@@ -1,4 +1,10 @@
 pandas
-pytest
+numpy
 matplotlib
 scikit-learn
+pytest
+spacy
+sentence-transformers
+transformers
+torch
+# after installing: python -m spacy download en_core_web_sm

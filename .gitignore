@@ -21,3 +21,15 @@ data/essays.csv
 
 # Keep generated charts private until reviewed
 reports/figures/
+
+# Private analysis outputs and generated writing
+reports/analysis/
+reports/generations/
+data/processed/rag_index/
+
+# Test cache
+.pytest_cache/
+
+# Unrelated course files (not part of this project)
+content/
+notebooks/
