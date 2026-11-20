@@ -1,0 +1,8 @@
+# Prompts for 05_rag_writer.py and 06_llm_style_comparison.py
+# One prompt per line. Lines starting with # are ignored.
+What have I written about wanting to belong?
+How do I write about home and leaving home?
+What have I written about feeling lost or stuck?
+How has my outlook swung between pessimism and optimism?
+Write a short reflection about an ordinary day, in my voice.
+Write a short piece about a trip that went wrong, in my voice.
